@@ -27,7 +27,7 @@ document.onchange = () => {
   const div = document.createElement('div');
   const code = document.createElement('code');
   const paragraph = document.createElement('p');
-  paragraph.innerText = 'バッジのコード（マークダウン形式）';
+  paragraph.innerText = '　　　バッジのコード（マークダウン形式）';
   resultDivided.appendChild(paragraph);
   div.setAttribute('id', 'box');
   code.innerText = `[![CircleCI](${imgURL})](${hrefURL})`;
